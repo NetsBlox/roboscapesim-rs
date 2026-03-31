@@ -43,7 +43,7 @@ serde = { version = "1.0" }
 serde_json = "1.0"
 simple_logger = "5.0"
 rand = "0.9.2"
-rapier3d = { version = "0.31.0", features = ["serde-serialize", "simd-stable"] }
+rapier3d = { version = "0.32.0", features = ["serde-serialize", "simd-stable"] }
 rayon = "1.11.0"
 reqwest = { version = "0.13.1", default-features = false, features = ["json", "rustls"] }
 rmp-serde = "1.3"
